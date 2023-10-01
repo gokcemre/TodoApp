@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+
+<!-- ! BOOTSTRAP CSS CDN -->
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+<!-- ! FONTAWESOME CDN -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <div class="container mt-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title bg-body-secondary p-3 my-2 border border-1">Görev Girme Bölümü</h5>
+                <input id="searchInput" type="text" placeholder="Görev Giriniz" class="w-100 d-block p-2 my-3">
+                <small id="uyarı"></small> <br>
+                <button id="btnEkle" type="button" class="btn btn-primary">Ekle</button>
+            </div>
+        </div>
+
+        <div class="card mt-2">
+            <div class="card-body">
+                <h5 class="card-title bg-body-secondary p-3 my-2 border border-1">Yapılacaklar</h5>
+                <input id="btnFiltrele" type="text" placeholder="Görev Arayınız" class="w-100 d-block p-2 my-3">
+                <ul id="todoListesi" class="border border-1 p-3">
+                    <!-- <li class="list-item border border-1 p-2 list-unstyled mb-2">Görev1
+                        <i class="fa-solid fa-xmark float-end mt-1 pe-1 fs-5"></i>
+                    </li> -->
+                </ul>
+                <button id="btnHepsiniTemizle" type="button" class="btn btn-primary">Temizle</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+
+    <!-- ! JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
